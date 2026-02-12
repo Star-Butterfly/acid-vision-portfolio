@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОНТАКТЫ | ACID VISION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    
+    <div class="loader-wrap">
+        <div class="loader-text">УСТАНОВКА СОЕДИНЕНИЯ...</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="noise-bg"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand-logo magnetic">ACID.VSN</a>
+        <div class="menu-toggle magnetic">
+            <span class="menu-text">МЕНЮ</span>
+            <div class="menu-bars">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-nav">
+            <a href="index.html" class="menu-link magnetic" data-text="ГЛАВНАЯ">ГЛАВНАЯ</a>
+            <a href="work.html" class="menu-link magnetic" data-text="ПРОЕКТЫ">ПРОЕКТЫ</a>
+            <a href="contact.html" class="menu-link magnetic" data-text="КОНТАКТЫ">КОНТАКТЫ</a>
+        </div>
+        <div class="menu-footer">
+            <span>ОСН. 2024</span>
+            <span>МОСКВА / СПБ</span>
+        </div>
+    </div>
+
+    <main class="transition-fade">
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h1 class="page-title">НАЧАТЬ<br>ПРОЕКТ</h1>
+                        <div class="contact-details">
+                            <p>МОСКВА, РОССИЯ</p>
+                            <p>ПРЕСНЕНСКАЯ НАБ., 12</p>
+                            <br>
+                            <a href="mailto:hello@acid.vsn" class="contact-email magnetic">HELLO@ACID.VSN</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <form class="brutalist-form">
+                            <div class="form-group">
+                                <label>01. КАК ВАС ЗОВУТ?</label>
+                                <input type="text" placeholder="ИВАН ИВАНОВ" required>
+                            </div>
+                            <div class="form-group">
+                                <label>02. ВАШ EMAIL?</label>
+                                <input type="email" placeholder="IVAN@MAIL.RU" required>
+                            </div>
+                            <div class="form-group">
+                                <label>03. ОПИШИТЕ ЗАДАЧУ</label>
+                                <textarea rows="4" placeholder="ДЕТАЛИ ПРОЕКТА..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn magnetic">ОТПРАВИТЬ СИГНАЛ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h2 class="footer-cta magnetic">ОБСУДИМ ПРОЕКТ</h2>
+            </div>
+            <div class="footer-bottom">
+                <div class="socials">
+                    <a href="#" class="magnetic">TELEGRAM</a>
+                    <a href="#" class="magnetic">VKONTAKTE</a>
+                    <a href="#" class="magnetic">BEHANCE</a>
+                </div>
+                <div class="copyright">
+                    ©2024 ACID VISION. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="page-transition-glitch"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

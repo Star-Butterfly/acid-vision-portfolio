@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACID VISION | ЦИФРОВОЙ ХАОС</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    
+    <div class="loader-wrap">
+        <div class="loader-text">ЗАГРУЗКА СИСТЕМЫ...</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="noise-bg"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand-logo magnetic">ACID.VSN</a>
+        <div class="menu-toggle magnetic">
+            <span class="menu-text">МЕНЮ</span>
+            <div class="menu-bars">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-nav">
+            <a href="index.html" class="menu-link magnetic" data-text="ГЛАВНАЯ">ГЛАВНАЯ</a>
+            <a href="work.html" class="menu-link magnetic" data-text="ПРОЕКТЫ">ПРОЕКТЫ</a>
+            <a href="contact.html" class="menu-link magnetic" data-text="КОНТАКТЫ">КОНТАКТЫ</a>
+        </div>
+        <div class="menu-footer">
+            <span>ОСН. 2024</span>
+            <span>МОСКВА / СПБ</span>
+        </div>
+    </div>
+
+    <main id="swup" class="transition-fade">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <div class="line"><span class="reveal-text">МЫ СОЗДАЕМ</span></div>
+                    <div class="line"><span class="reveal-text text-accent">ЦИФРОВУЮ</span></div>
+                    <div class="line"><span class="reveal-text">АНАРХИЮ</span></div>
+                </h1>
+                <div class="hero-meta">
+                    <p class="hero-desc">Студия радикального дизайна. Мы делаем больно конкурентам и приятно вашим продажам.</p>
+                    <div class="scroll-indicator">
+                        <span>СКРОЛЛ</span>
+                        <div class="arrow-down"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <span class="marquee-item">ВЕБ-РАЗРАБОТКА</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">UI/UX ДИЗАЙН</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">БРЕНДИНГ</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">MOTION GRAPHICS</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">ВЕБ-РАЗРАБОТКА</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">UI/UX ДИЗАЙН</span>
+                <span class="marquee-item">///</span>
+            </div>
+        </div>
+
+        <section class="featured-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">ИЗБРАННЫЕ<br>КЕЙСЫ</h2>
+                    <a href="work.html" class="btn-link magnetic">ВСЕ РАБОТЫ -></a>
+                </div>
+                
+                <div class="work-grid">
+                    <!-- ПРОЕКТ 1 -->
+                    <article class="work-item scroll-reveal">
+                        <!-- УБРАЛ magnetic-wrap ОТСЮДА -->
+                        <div class="work-img-wrapper">
+                            <img src="templates/VoidRunner.png" alt="Void Runner UI" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>VOID RUNNER</h3>
+                            <span>ИГРОВОЙ UI / 3D</span>
+                        </div>
+                    </article>
+
+                    <!-- ПРОЕКТ 2 -->
+                    <article class="work-item scroll-reveal offset-top">
+                        <!-- УБРАЛ magnetic-wrap ОТСЮДА -->
+                        <div class="work-img-wrapper">
+                            <img src="templates/Hyperloop.png" alt="Hyper Loop Web Concept" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>HYPER LOOP</h3>
+                            <span>ВЕБ-КОНЦЕПТ</span>
+                        </div>
+                    </article>
+
+                    <!-- ПРОЕКТ 3 -->
+                    <article class="work-item scroll-reveal">
+                        <!-- УБРАЛ magnetic-wrap ОТСЮДА -->
+                        <div class="work-img-wrapper">
+                            <img src="templates/DarkMatter.png" alt="Dark Matter Branding" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>DARK MATTER</h3>
+                            <span>БРЕНДИНГ</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="manifesto">
+            <div class="container">
+                <h2 class="manifesto-text scroll-reveal">
+                    ДИЗАЙН — ЭТО НЕ ПРО «КРАСИВО». ЭТО ПРО КОНТРОЛИРУЕМЫЙ ХАОС И НАРУШЕНИЕ ПРАВИЛ РАДИ НОВОГО ОПЫТА.
+                </h2>
+            </div>
+        </section>
+    </main>
+
+    <section class="services-interactive">
+        <div class="container">
+            <h2 class="section-title">ЧЕМ МЫ БЬЕМ</h2>
+            <div class="services-list">
+                <div class="service-item" data-bg="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2670">
+                    <div class="service-header">
+                        <span class="service-num">01</span>
+                        <h3 class="service-name">STRATEGY / СТРАТЕГИЯ</h3>
+                    </div>
+                    <div class="service-content">
+                        <p>Анализируем рынок так глубоко, что находим там нефть. Строим фундамент, который не развалится под гнетом правок.</p>
+                    </div>
+                </div>
+                <div class="service-item" data-bg="https://images.unsplash.com/photo-1633167606207-d840b5070fc2?q=80&w=2564">
+                    <div class="service-header">
+                        <span class="service-num">02</span>
+                        <h3 class="service-name">WEB DEV / РАЗРАБОТКА</h3>
+                    </div>
+                    <div class="service-content">
+                        <p>Кодим так, что Google плачет от счастья. Чистый JS, React, анимации, от которых кружится голова.</p>
+                    </div>
+                </div>
+                <div class="service-item" data-bg="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?q=80&w=2574">
+                    <div class="service-header">
+                        <span class="service-num">03</span>
+                        <h3 class="service-name">ART DIR / АРТ-ДИРЕКШН</h3>
+                    </div>
+                    <div class="service-content">
+                        <p>Визуальный террор в хорошем смысле. Создаем стиль, который копируют конкуренты через неделю.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-bg-overlay"></div>
+    </section>
+
+    <section class="calculator-section">
+        <div class="container">
+            <div class="calc-grid">
+                <div class="calc-info">
+                    <h2 class="section-title">СЧЕТЧИК<br>УЩЕРБА</h2>
+                    <p>Приблизительная стоимость твоих амбиций. Выбери опции и узнай, сколько стоит вынести рынок.</p>
+                </div>
+                <div class="calc-body">
+                    <div class="calc-options">
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt1" data-price="50000">
+                            <label for="opt1">ЛЕНДИНГ-КИЛЛЕР</label>
+                        </div>
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt2" data-price="80000">
+                            <label for="opt2">ФИРМЕННЫЙ СТИЛЬ</label>
+                        </div>
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt3" data-price="120000">
+                            <label for="opt3">СЛОЖНЫЙ ИНТЕРФЕЙС</label>
+                        </div>
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt4" data-price="40000">
+                            <label for="opt4">3D АНИМАЦИИ</label>
+                        </div>
+                    </div>
+                    <div class="calc-result">
+                        <span class="result-label">ИТОГО:</span>
+                        <span class="result-value">₽ <span id="total-price">0</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="drag-window" id="draggableWindow">
+        <div class="window-header">
+            <span class="window-title">SYSTEM_ERROR.EXE</span>
+            <div class="window-controls">
+                <span>_</span>
+                <span class="close-win">X</span>
+            </div>
+        </div>
+        <div class="window-body">
+            <p>> ХВАТИТ ПРОСТО СМОТРЕТЬ</p>
+            <p>> НАПИШИ НАМ И ЗАБЕРИ СВОЙ ДИЗАЙН</p>
+            <p>> КОНТАКТЫ ВНИЗУ СТРАНИЦЫ</p>
+            <div class="terminal-cursor"></div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h2 class="footer-cta magnetic">ОБСУДИМ ПРОЕКТ</h2>
+            </div>
+            <div class="footer-bottom">
+                <div class="socials">
+                    <a href="#" class="magnetic">TELEGRAM</a>
+                    <a href="#" class="magnetic">VKONTAKTE</a>
+                    <a href="#" class="magnetic">BEHANCE</a>
+                </div>
+                <div class="copyright">
+                    ©2024 ACID VISION. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-container">
+            <button class="lightbox-close" id="close-lightbox">ЗАКРЫТЬ [X]</button>
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        </div>
+    </div>
+
+    <div id="page-transition-glitch"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

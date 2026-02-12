@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПРОЕКТЫ | ACID VISION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    
+    <div class="loader-wrap">
+        <div class="loader-text">ЗАГРУЗКА АРХИВА...</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="noise-bg"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand-logo magnetic">ACID.VSN</a>
+        <div class="menu-toggle magnetic">
+            <span class="menu-text">МЕНЮ</span>
+            <div class="menu-bars">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-nav">
+            <a href="index.html" class="menu-link magnetic" data-text="ГЛАВНАЯ">ГЛАВНАЯ</a>
+            <a href="work.html" class="menu-link magnetic" data-text="ПРОЕКТЫ">ПРОЕКТЫ</a>
+            <a href="contact.html" class="menu-link magnetic" data-text="КОНТАКТЫ">КОНТАКТЫ</a>
+        </div>
+        <div class="menu-footer">
+            <span>ОСН. 2024</span>
+            <span>МОСКВА / СПБ</span>
+        </div>
+    </div>
+
+    <main class="transition-fade">
+        <section class="page-header">
+            <h1 class="page-title glitched" data-text="АРХИВ">АРХИВ</h1>
+        </section>
+
+        <section class="work-list">
+            
+            <div class="project-row scroll-reveal">
+                <span class="project-num">01</span>
+                <h2 class="project-name">VOID RUNNER</h2>
+                <span class="project-cat">ИГРОВОЙ UI / 3D</span>
+                <div class="project-img-hover">
+                    <img src="templates/VoidRunner.png" alt="Void Runner UI">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">02</span>
+                <h2 class="project-name">HYPER LOOP</h2>
+                <span class="project-cat">МОУШН / ВЕБ</span>
+                <div class="project-img-hover">
+                    <img src="templates/Hyperloop.png" alt="Hyper Loop Web Concept">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">03</span>
+                <h2 class="project-name">DARK MATTER</h2>
+                <span class="project-cat">БРЕНДИНГ</span>
+                <div class="project-img-hover">
+                    <img src="templates/DarkMatter.png" alt="Dark Matter Branding">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">04</span>
+                <h2 class="project-name">SYNTHETIC</h2>
+                <span class="project-cat">APP ДИЗАЙН</span>
+                <div class="project-img-hover">
+                    <img src="templates/Synthetic.png" alt="Synthetic App UI">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">05</span>
+                <h2 class="project-name">ACID RAIN</h2>
+                <span class="project-cat">ЭКСПЕРИМЕНТ</span>
+                <div class="project-img-hover">
+                    <img src="templates/ACID_EXPERIMENT.png" alt="Acid Rain Experiment">
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h2 class="footer-cta magnetic">ОБСУДИМ ПРОЕКТ</h2>
+            </div>
+            <div class="footer-bottom">
+                <div class="socials">
+                    <a href="#" class="magnetic">TELEGRAM</a>
+                    <a href="#" class="magnetic">VKONTAKTE</a>
+                    <a href="#" class="magnetic">BEHANCE</a>
+                </div>
+                <div class="copyright">
+                    ©2024 ACID VISION. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-container">
+            <button class="lightbox-close" id="close-lightbox">ЗАКРЫТЬ [X]</button>
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        </div>
+    </div>
+
+    <div id="page-transition-glitch"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
