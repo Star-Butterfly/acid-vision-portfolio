@@ -1,0 +1,1846 @@
+--- Сборка активов из директории: I:\Рабочий стол\HTMLCSS\AcidVision ---
+--- Дата и время сбора: 2026-02-12 06:04:03 ---
+--- Целевые расширения: ('.html', '.css', '.js') ---
+
+
+
+================================================================================
+ФАЙЛ: contact.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОНТАКТЫ | ACID VISION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    
+    <div class="loader-wrap">
+        <div class="loader-text">УСТАНОВКА СОЕДИНЕНИЯ...</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="noise-bg"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand-logo magnetic">ACID.VSN</a>
+        <div class="menu-toggle magnetic">
+            <span class="menu-text">МЕНЮ</span>
+            <div class="menu-bars">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-nav">
+            <a href="index.html" class="menu-link magnetic" data-text="ГЛАВНАЯ">ГЛАВНАЯ</a>
+            <a href="work.html" class="menu-link magnetic" data-text="ПРОЕКТЫ">ПРОЕКТЫ</a>
+            <a href="contact.html" class="menu-link magnetic" data-text="КОНТАКТЫ">КОНТАКТЫ</a>
+        </div>
+        <div class="menu-footer">
+            <span>ОСН. 2024</span>
+            <span>МОСКВА / СПБ</span>
+        </div>
+    </div>
+
+    <main class="transition-fade">
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h1 class="page-title">НАЧАТЬ<br>ПРОЕКТ</h1>
+                        <div class="contact-details">
+                            <p>МОСКВА, РОССИЯ</p>
+                            <p>ПРЕСНЕНСКАЯ НАБ., 12</p>
+                            <br>
+                            <a href="mailto:hello@acid.vsn" class="contact-email magnetic">HELLO@ACID.VSN</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <form class="brutalist-form">
+                            <div class="form-group">
+                                <label>01. КАК ВАС ЗОВУТ?</label>
+                                <input type="text" placeholder="ИВАН ИВАНОВ" required>
+                            </div>
+                            <div class="form-group">
+                                <label>02. ВАШ EMAIL?</label>
+                                <input type="email" placeholder="IVAN@MAIL.RU" required>
+                            </div>
+                            <div class="form-group">
+                                <label>03. ОПИШИТЕ ЗАДАЧУ</label>
+                                <textarea rows="4" placeholder="ДЕТАЛИ ПРОЕКТА..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn magnetic">ОТПРАВИТЬ СИГНАЛ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h2 class="footer-cta magnetic">ОБСУДИМ ПРОЕКТ</h2>
+            </div>
+            <div class="footer-bottom">
+                <div class="socials">
+                    <a href="#" class="magnetic">TELEGRAM</a>
+                    <a href="#" class="magnetic">VKONTAKTE</a>
+                    <a href="#" class="magnetic">BEHANCE</a>
+                </div>
+                <div class="copyright">
+                    ©2024 ACID VISION. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="page-transition-glitch"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+================================================================================
+ФАЙЛ: index.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACID VISION | ЦИФРОВОЙ ХАОС</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    
+    <div class="loader-wrap">
+        <div class="loader-text">ЗАГРУЗКА СИСТЕМЫ...</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="noise-bg"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand-logo magnetic">ACID.VSN</a>
+        <div class="menu-toggle magnetic">
+            <span class="menu-text">МЕНЮ</span>
+            <div class="menu-bars">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-nav">
+            <a href="index.html" class="menu-link magnetic" data-text="ГЛАВНАЯ">ГЛАВНАЯ</a>
+            <a href="work.html" class="menu-link magnetic" data-text="ПРОЕКТЫ">ПРОЕКТЫ</a>
+            <a href="contact.html" class="menu-link magnetic" data-text="КОНТАКТЫ">КОНТАКТЫ</a>
+        </div>
+        <div class="menu-footer">
+            <span>ОСН. 2024</span>
+            <span>МОСКВА / СПБ</span>
+        </div>
+    </div>
+
+    <main id="swup" class="transition-fade">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <div class="line"><span class="reveal-text">МЫ СОЗДАЕМ</span></div>
+                    <div class="line"><span class="reveal-text text-accent">ЦИФРОВУЮ</span></div>
+                    <div class="line"><span class="reveal-text">АНАРХИЮ</span></div>
+                </h1>
+                <div class="hero-meta">
+                    <p class="hero-desc">Студия радикального дизайна. Мы делаем больно конкурентам и приятно вашим продажам.</p>
+                    <div class="scroll-indicator">
+                        <span>СКРОЛЛ</span>
+                        <div class="arrow-down"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <span class="marquee-item">ВЕБ-РАЗРАБОТКА</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">UI/UX ДИЗАЙН</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">БРЕНДИНГ</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">MOTION GRAPHICS</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">ВЕБ-РАЗРАБОТКА</span>
+                <span class="marquee-item">///</span>
+                <span class="marquee-item">UI/UX ДИЗАЙН</span>
+                <span class="marquee-item">///</span>
+            </div>
+        </div>
+
+        <section class="featured-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">ИЗБРАННЫЕ<br>КЕЙСЫ</h2>
+                    <a href="work.html" class="btn-link magnetic">ВСЕ РАБОТЫ -></a>
+                </div>
+                
+                <div class="work-grid">
+                    <!-- ПРОЕКТ 1 -->
+                    <article class="work-item scroll-reveal">
+                        <!-- УБРАЛ magnetic-wrap ОТСЮДА -->
+                        <div class="work-img-wrapper">
+                            <img src="templates/VoidRunner.png" alt="Void Runner UI" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>VOID RUNNER</h3>
+                            <span>ИГРОВОЙ UI / 3D</span>
+                        </div>
+                    </article>
+
+                    <!-- ПРОЕКТ 2 -->
+                    <article class="work-item scroll-reveal offset-top">
+                        <!-- УБРАЛ magnetic-wrap ОТСЮДА -->
+                        <div class="work-img-wrapper">
+                            <img src="templates/Hyperloop.png" alt="Hyper Loop Web Concept" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>HYPER LOOP</h3>
+                            <span>ВЕБ-КОНЦЕПТ</span>
+                        </div>
+                    </article>
+
+                    <!-- ПРОЕКТ 3 -->
+                    <article class="work-item scroll-reveal">
+                        <!-- УБРАЛ magnetic-wrap ОТСЮДА -->
+                        <div class="work-img-wrapper">
+                            <img src="templates/DarkMatter.png" alt="Dark Matter Branding" class="work-img">
+                        </div>
+                        <div class="work-info">
+                            <h3>DARK MATTER</h3>
+                            <span>БРЕНДИНГ</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="manifesto">
+            <div class="container">
+                <h2 class="manifesto-text scroll-reveal">
+                    ДИЗАЙН — ЭТО НЕ ПРО «КРАСИВО». ЭТО ПРО КОНТРОЛИРУЕМЫЙ ХАОС И НАРУШЕНИЕ ПРАВИЛ РАДИ НОВОГО ОПЫТА.
+                </h2>
+            </div>
+        </section>
+    </main>
+
+    <section class="services-interactive">
+        <div class="container">
+            <h2 class="section-title">ЧЕМ МЫ БЬЕМ</h2>
+            <div class="services-list">
+                <div class="service-item" data-bg="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2670">
+                    <div class="service-header">
+                        <span class="service-num">01</span>
+                        <h3 class="service-name">STRATEGY / СТРАТЕГИЯ</h3>
+                    </div>
+                    <div class="service-content">
+                        <p>Анализируем рынок так глубоко, что находим там нефть. Строим фундамент, который не развалится под гнетом правок.</p>
+                    </div>
+                </div>
+                <div class="service-item" data-bg="https://images.unsplash.com/photo-1633167606207-d840b5070fc2?q=80&w=2564">
+                    <div class="service-header">
+                        <span class="service-num">02</span>
+                        <h3 class="service-name">WEB DEV / РАЗРАБОТКА</h3>
+                    </div>
+                    <div class="service-content">
+                        <p>Кодим так, что Google плачет от счастья. Чистый JS, React, анимации, от которых кружится голова.</p>
+                    </div>
+                </div>
+                <div class="service-item" data-bg="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?q=80&w=2574">
+                    <div class="service-header">
+                        <span class="service-num">03</span>
+                        <h3 class="service-name">ART DIR / АРТ-ДИРЕКШН</h3>
+                    </div>
+                    <div class="service-content">
+                        <p>Визуальный террор в хорошем смысле. Создаем стиль, который копируют конкуренты через неделю.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-bg-overlay"></div>
+    </section>
+
+    <section class="calculator-section">
+        <div class="container">
+            <div class="calc-grid">
+                <div class="calc-info">
+                    <h2 class="section-title">СЧЕТЧИК<br>УЩЕРБА</h2>
+                    <p>Приблизительная стоимость твоих амбиций. Выбери опции и узнай, сколько стоит вынести рынок.</p>
+                </div>
+                <div class="calc-body">
+                    <div class="calc-options">
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt1" data-price="50000">
+                            <label for="opt1">ЛЕНДИНГ-КИЛЛЕР</label>
+                        </div>
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt2" data-price="80000">
+                            <label for="opt2">ФИРМЕННЫЙ СТИЛЬ</label>
+                        </div>
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt3" data-price="120000">
+                            <label for="opt3">СЛОЖНЫЙ ИНТЕРФЕЙС</label>
+                        </div>
+                        <div class="calc-option magnetic">
+                            <input type="checkbox" id="opt4" data-price="40000">
+                            <label for="opt4">3D АНИМАЦИИ</label>
+                        </div>
+                    </div>
+                    <div class="calc-result">
+                        <span class="result-label">ИТОГО:</span>
+                        <span class="result-value">₽ <span id="total-price">0</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="drag-window" id="draggableWindow">
+        <div class="window-header">
+            <span class="window-title">SYSTEM_ERROR.EXE</span>
+            <div class="window-controls">
+                <span>_</span>
+                <span class="close-win">X</span>
+            </div>
+        </div>
+        <div class="window-body">
+            <p>> ХВАТИТ ПРОСТО СМОТРЕТЬ</p>
+            <p>> НАПИШИ НАМ И ЗАБЕРИ СВОЙ ДИЗАЙН</p>
+            <p>> КОНТАКТЫ ВНИЗУ СТРАНИЦЫ</p>
+            <div class="terminal-cursor"></div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h2 class="footer-cta magnetic">ОБСУДИМ ПРОЕКТ</h2>
+            </div>
+            <div class="footer-bottom">
+                <div class="socials">
+                    <a href="#" class="magnetic">TELEGRAM</a>
+                    <a href="#" class="magnetic">VKONTAKTE</a>
+                    <a href="#" class="magnetic">BEHANCE</a>
+                </div>
+                <div class="copyright">
+                    ©2024 ACID VISION. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-container">
+            <button class="lightbox-close" id="close-lightbox">ЗАКРЫТЬ [X]</button>
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        </div>
+    </div>
+
+    <div id="page-transition-glitch"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+================================================================================
+ФАЙЛ: main.js
+================================================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    
+    // --- ПРЕЛОАДЕР ---
+    const progressBar = document.querySelector('.loader-progress');
+    const body = document.body;
+    let width = 0;
+    
+    if (progressBar) {
+        const interval = setInterval(() => {
+            if (width >= 100) {
+                clearInterval(interval);
+                setTimeout(() => {
+                    body.classList.add('loaded');
+                }, 500);
+            } else {
+                width++;
+                progressBar.style.width = width + '%';
+            }
+        }, 15);
+    } else {
+        body.classList.add('loaded');
+    }
+
+    // --- КАСТОМНЫЙ КУРСОР ---
+    const cursorDot = document.querySelector('.cursor-dot');
+    const cursorOutline = document.querySelector('.cursor-outline');
+    
+    if (cursorDot && cursorOutline && window.matchMedia("(pointer: fine)").matches) {
+        window.addEventListener('mousemove', (e) => {
+            const posX = e.clientX;
+            const posY = e.clientY;
+
+            cursorDot.style.left = `${posX}px`;
+            cursorDot.style.top = `${posY}px`;
+
+            cursorOutline.animate({
+                left: `${posX}px`,
+                top: `${posY}px`
+            }, { duration: 500, fill: "forwards" });
+        });
+
+        const magnetics = document.querySelectorAll('.magnetic');
+        magnetics.forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursorOutline.classList.add('hovered');
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(0.5)';
+            });
+            el.addEventListener('mouseleave', () => {
+                cursorOutline.classList.remove('hovered');
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(1)';
+            });
+        });
+    }
+
+    // --- ГЛАВНОЕ МЕНЮ ---
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menuOverlay = document.querySelector('.menu-overlay');
+    const menuLinks = document.querySelectorAll('.menu-link');
+
+    if (menuToggle && menuOverlay) {
+        menuToggle.addEventListener('click', () => {
+            menuOverlay.classList.toggle('active');
+            
+            const isOpen = menuOverlay.classList.contains('active');
+            const bars = document.querySelectorAll('.menu-bars span');
+            const menuText = document.querySelector('.menu-text');
+
+            if (isOpen) {
+                menuText.textContent = 'ЗАКРЫТЬ';
+                bars[0].style.transform = 'rotate(45deg) translate(5px, 6px)';
+                bars[1].style.transform = 'rotate(-45deg) translate(5px, -6px)';
+            } else {
+                menuText.textContent = 'МЕНЮ';
+                bars[0].style.transform = 'none';
+                bars[1].style.transform = 'none';
+            }
+        });
+
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuOverlay.classList.remove('active');
+            });
+        });
+    }
+
+    // --- АНИМАЦИЯ ПОЯВЛЕНИЯ ПРИ СКРОЛЛЕ ---
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: "0px"
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.scroll-reveal').forEach(el => {
+        observer.observe(el);
+    });
+
+    // --- ОБРАБОТКА ФОРМ ---
+    const form = document.querySelector('form');
+    if (form) {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = form.querySelector('button');
+            const originalText = btn.textContent;
+            
+            btn.textContent = 'ОТПРАВКА...';
+            btn.style.opacity = '0.7';
+
+            setTimeout(() => {
+                btn.textContent = 'СИГНАЛ ПРИНЯТ';
+                btn.style.background = '#fff';
+                btn.style.color = '#000';
+                form.reset();
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.style.color = '';
+                    btn.style.opacity = '1';
+                }, 3000);
+            }, 1500);
+        });
+    }
+
+    // --- МАГНИТНЫЕ КНОПКИ ---
+    const magneticBtns = document.querySelectorAll('.magnetic-wrap');
+    magneticBtns.forEach(btn => {
+        btn.addEventListener('mousemove', (e) => {
+            const position = btn.getBoundingClientRect();
+            const x = e.pageX - position.left - position.width / 2;
+            const y = e.pageY - position.top - position.height / 2;
+            if(btn.children[0]) {
+                btn.children[0].style.transform = `translate(${x * 0.3}px, ${y * 0.3}px) scale(1.1)`;
+            }
+        });
+
+        btn.addEventListener('mouseleave', () => {
+            if(btn.children[0]) {
+                btn.children[0].style.transform = 'translate(0px, 0px) scale(1)';
+            }
+        });
+    });
+
+    // --- ГЛИТЧ-ПЕРЕХОД МЕЖДУ СТРАНИЦАМИ ---
+    const internalLinks = document.querySelectorAll('a:not([href^="#"]):not([href^="mailto:"]):not([href^="tel:"]):not([target="_blank"])');
+    const glitchOverlay = document.getElementById('page-transition-glitch');
+    
+    if (glitchOverlay) {
+        internalLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const destination = link.href;
+                if (destination === window.location.href || destination.endsWith('#')) return;
+
+                e.preventDefault();
+                glitchOverlay.innerHTML = '';
+                const slices = 10;
+                for (let i = 0; i < slices; i++) {
+                    const slice = document.createElement('div');
+                    slice.classList.add('glitch-slice');
+                    slice.style.animationDelay = `${Math.random() * 0.2}s`;
+                    glitchOverlay.appendChild(slice);
+                }
+                glitchOverlay.classList.add('active');
+                setTimeout(() => { window.location = destination; }, 800);
+            });
+        });
+    }
+
+    // --- КАЛЬКУЛЯТОР (Только на Главной) ---
+    const totalPriceDisplay = document.getElementById('total-price');
+    const checkboxes = document.querySelectorAll('.calc-option input');
+    
+    if (totalPriceDisplay && checkboxes.length > 0) {
+        let total = 0;
+        checkboxes.forEach(check => {
+            check.addEventListener('change', () => {
+                const price = parseInt(check.getAttribute('data-price'));
+                total = check.checked ? total + price : total - price;
+                animateValue(totalPriceDisplay, parseInt(totalPriceDisplay.innerText.replace(/\s/g, '')), total, 500);
+            });
+        });
+    }
+
+    function animateValue(obj, start, end, duration) {
+        let startTimestamp = null;
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString('ru-RU');
+            if (progress < 1) window.requestAnimationFrame(step);
+        };
+        window.requestAnimationFrame(step);
+    }
+
+    // --- ИНТЕРАКТИВНЫЕ УСЛУГИ (Только на Главной) ---
+    const serviceItems = document.querySelectorAll('.service-item');
+    const bgOverlay = document.querySelector('.services-bg-overlay');
+
+    if (serviceItems.length > 0 && bgOverlay) {
+        serviceItems.forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                const bg = item.getAttribute('data-bg');
+                bgOverlay.style.backgroundImage = `url(${bg})`;
+                bgOverlay.style.opacity = '0.3';
+            });
+            item.addEventListener('mouseleave', () => {
+                bgOverlay.style.opacity = '0';
+            });
+        });
+    }
+
+    // --- DRAG-N-DROP ОКНО (Только на Главной) ---
+    const dragWin = document.getElementById('draggableWindow');
+    if (dragWin) {
+        let isDragging = false;
+        let currentX, currentY, initialX, initialY;
+        let xOffset = 0, yOffset = 0;
+
+        dragWin.addEventListener('mousedown', (e) => {
+            initialX = e.clientX - xOffset;
+            initialY = e.clientY - yOffset;
+            if (e.target === dragWin || e.target.closest('.window-header')) isDragging = true;
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                e.preventDefault();
+                currentX = e.clientX - initialX;
+                currentY = e.clientY - initialY;
+                xOffset = currentX;
+                yOffset = currentY;
+                dragWin.style.transform = `translate3d(${currentX}px, ${currentY}px, 0)`;
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            initialX = currentX;
+            initialY = currentY;
+            isDragging = false;
+        });
+
+        const closeWinBtn = document.querySelector('.close-win');
+        if (closeWinBtn) {
+            closeWinBtn.addEventListener('click', () => { dragWin.style.display = 'none'; });
+        }
+    }
+
+    // --- LIGHTBOX (ПРОСМОТР КАРТИНОК) ---
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('close-lightbox');
+    const workImages = document.querySelectorAll('.work-img-wrapper img');
+
+    if (lightbox && lightboxImg && workImages.length > 0) {
+        workImages.forEach(img => {
+            img.parentElement.addEventListener('click', () => {
+                lightboxImg.setAttribute('src', img.getAttribute('src'));
+                lightbox.classList.add('active');
+                body.style.overflow = 'hidden';
+                body.classList.add('lightbox-open');
+            });
+        });
+
+        const closeLightbox = () => {
+            lightbox.classList.remove('active');
+            body.style.overflow = '';
+            body.classList.remove('lightbox-open');
+            setTimeout(() => { lightboxImg.setAttribute('src', ''); }, 400);
+        };
+
+        if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+    }
+});
+
+================================================================================
+ФАЙЛ: style.css
+================================================================================
+
+:root {
+    --bg-color: #080808;
+    --text-color: #e0e0e0;
+    --accent-color: #ccff00;
+    --secondary-color: #7000ff;
+    --grid-color: rgba(255, 255, 255, 0.05);
+    /* ВОТ ТУТ МЫ ПОМЕНЯЛИ ШРИФТ НА OSWALD */
+    --font-head: 'Oswald', sans-serif; 
+    --font-body: 'Space Grotesk', sans-serif;
+    --easing: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+    width: 100vw;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.noise-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0MDAnIGhlaWdodD0nNDAwJz48ZmlsdGVyIGlkPSdub2lzZSc+PGZlVHVyYnVsZW5jZSB0eXBlPSdmcmFjdGFsTm9pc2UnIGJhc2VGcmVxdWVuY3k9JzAuOScgbnVtT2N0YXZlcz0nMScgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbHRlcj0ndXJsKCNub2lzZSknLz48L3N2Zz4=');
+    opacity: 0.05;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.loader-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.8s var(--easing);
+}
+
+.loader-text {
+    font-family: var(--font-head);
+    font-size: 1rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.loader-bar {
+    width: 200px;
+    height: 2px;
+    background: #333;
+    overflow: hidden;
+}
+
+.loader-progress {
+    width: 0%;
+    height: 100%;
+    background: var(--accent-color);
+    transition: width 0.5s ease;
+}
+
+body.loaded .loader-wrap {
+    transform: translateY(-100%);
+}
+
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 20001;
+    mix-blend-mode: difference;
+    transition: transform 0.1s;
+}
+
+.cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 20000;
+    transition: width 0.3s, height 0.3s, background-color 0.3s;
+}
+
+.cursor-outline.hovered {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(204, 255, 0, 0.1);
+    border-color: var(--accent-color);
+}
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    mix-blend-mode: difference;
+}
+
+.brand-logo {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: -1px;
+}
+
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-text {
+    font-family: var(--font-head);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.menu-bars {
+    width: 30px;
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu-bars span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s var(--easing);
+}
+
+.menu-toggle:hover .menu-bars span:first-child {
+    width: 50%;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    z-index: 990;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(0% at 100% 0);
+    transition: clip-path 0.8s var(--easing);
+}
+
+.menu-overlay.active {
+    clip-path: circle(150% at 100% 0);
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-link {
+    font-family: var(--font-head);
+    font-size: 5vw;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    position: relative;
+    transition: 0.4s;
+}
+
+.menu-link::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: var(--accent-color);
+    -webkit-text-stroke: 0px;
+    overflow: hidden;
+    transition: 0.4s var(--easing);
+    border-right: 4px solid var(--accent-color);
+}
+
+.menu-link:hover {
+    -webkit-text-stroke: 1px var(--accent-color);
+}
+
+.menu-link:hover::before {
+    width: 100%;
+}
+
+.menu-footer {
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 5rem;
+}
+
+.hero-title {
+    font-family: var(--font-head);
+    font-size: 9vw;
+    line-height: 0.9;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.line {
+    overflow: hidden;
+}
+
+.reveal-text {
+    display: block;
+    transform: translateY(100%);
+    animation: revealAnim 1.2s var(--easing) forwards;
+}
+
+.line:nth-child(1) .reveal-text { animation-delay: 0.8s; }
+.line:nth-child(2) .reveal-text { animation-delay: 1.0s; }
+.line:nth-child(3) .reveal-text { animation-delay: 1.2s; }
+
+@keyframes revealAnim {
+    to { transform: translateY(0); }
+}
+
+.text-accent {
+    color: var(--accent-color);
+    font-style: italic;
+}
+
+.hero-meta {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.hero-desc {
+    max-width: 350px;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+.scroll-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-head);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.arrow-down {
+    width: 2px;
+    height: 40px;
+    background: linear-gradient(to bottom, var(--accent-color), transparent);
+}
+
+.marquee-wrapper {
+    background: var(--accent-color);
+    color: var(--bg-color);
+    padding: 2rem 0;
+    transform: rotate(-2deg) scale(1.05);
+    margin: 5rem 0;
+    overflow: hidden;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.marquee-track {
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+    display: flex;
+}
+
+.marquee-item {
+    font-family: var(--font-head);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-right: 4rem;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.featured-works {
+    padding: 8rem 0;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid var(--grid-color);
+    padding-bottom: 2rem;
+}
+
+.section-title {
+    font-family: var(--font-head);
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.btn-link {
+    font-family: var(--font-head);
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn-link:hover {
+    background: #fff;
+    color: #000;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.work-item.offset-top {
+    margin-top: 8rem;
+}
+
+.work-img-wrapper {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border: 1px solid #333;
+}
+
+.work-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: 0.8s var(--easing);
+}
+
+.work-img-wrapper:hover .work-img {
+    filter: grayscale(0%) brightness(1.1) contrast(1.1);
+}
+
+.work-info h3 {
+    font-family: var(--font-head);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.work-info span {
+    color: #666;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.manifesto {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.manifesto-text {
+    font-family: var(--font-head);
+    font-size: 3vw;
+    line-height: 1.4;
+    max-width: 80%;
+    font-weight: 700;
+}
+
+.work-list {
+    padding: 10rem 0;
+}
+
+.page-header {
+    padding: 12rem 3rem 4rem;
+    border-bottom: 1px solid #333;
+}
+
+.page-title {
+    font-family: var(--font-head);
+    font-size: 8vw;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    padding: 4rem 3rem;
+    border-bottom: 1px solid #222;
+    position: relative;
+    transition: 0.3s;
+}
+
+.project-row:hover {
+    background-color: #111;
+}
+
+.project-num {
+    font-family: var(--font-head);
+    color: #444;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+}
+
+.project-name {
+    font-family: var(--font-head);
+    font-size: 3.5rem;
+    flex-grow: 1;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.project-row:hover .project-name {
+    color: var(--accent-color);
+    padding-left: 20px;
+}
+
+.project-cat {
+    text-transform: uppercase;
+    color: #888;
+}
+
+.project-img-hover {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) scale(0) rotate(-5deg);
+    width: 400px;
+    height: 250px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.4s var(--easing);
+    z-index: 10;
+}
+
+.project-img-hover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid var(--accent-color);
+}
+
+.project-row:hover .project-img-hover {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotate(-5deg);
+}
+
+.contact-section {
+    padding: 12rem 0;
+    min-height: 100vh;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.contact-details {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.contact-email {
+    display: inline-block;
+    margin-top: 2rem;
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+}
+
+.brutalist-form .form-group {
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.brutalist-form label {
+    font-family: var(--font-head);
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.brutalist-form input, 
+.brutalist-form textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 2rem;
+    padding: 1rem 0;
+    outline: none;
+    transition: 0.3s;
+}
+
+.brutalist-form input:focus, 
+.brutalist-form textarea:focus {
+    border-bottom-color: var(--accent-color);
+}
+
+.submit-btn {
+    background: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 1.5rem 4rem;
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #fff;
+    transform: translateY(-5px);
+}
+
+.site-footer {
+    padding: 4rem 3rem;
+    border-top: 1px solid #222;
+    background: #000;
+}
+
+.footer-cta {
+    font-family: var(--font-head);
+    font-size: 12vw;
+    line-height: 0.9;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 2px #333;
+    transition: 0.5s;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.footer-cta:hover {
+    color: var(--accent-color);
+    -webkit-text-stroke: 2px var(--accent-color);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.socials {
+    display: flex;
+    gap: 2rem;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: 1s var(--easing);
+}
+
+.scroll-reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.glitched {
+    position: relative;
+}
+
+.glitched::before,
+.glitched::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+}
+
+.glitched::before {
+    left: 2px;
+    text-shadow: -2px 0 var(--secondary-color);
+    clip: rect(24px, 550px, 90px, 0);
+    animation: glitch-anim 3s infinite linear alternate-reverse;
+}
+
+.glitched::after {
+    left: -2px;
+    text-shadow: -2px 0 var(--accent-color);
+    clip: rect(85px, 550px, 140px, 0);
+    animation: glitch-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+    0% { clip: rect(10px, 9999px, 30px, 0); }
+    20% { clip: rect(80px, 9999px, 10px, 0); }
+    40% { clip: rect(40px, 9999px, 90px, 0); }
+    60% { clip: rect(20px, 9999px, 50px, 0); }
+    80% { clip: rect(90px, 9999px, 20px, 0); }
+    100% { clip: rect(5px, 9999px, 80px, 0); }
+}
+
+@media (max-width: 768px) {
+    .hero-title { font-size: 13vw; }
+    .work-grid, .contact-grid { grid-template-columns: 1fr; }
+    .work-item.offset-top { margin-top: 0; }
+    .site-header { padding: 1.5rem; }
+    .footer-bottom { flex-direction: column; gap: 1rem; }
+    .project-img-hover { display: none; }
+    .project-name { font-size: 1.5rem; }
+    .project-num { margin-right: 1rem; }
+    .cursor-dot, .cursor-outline { display: none; }
+    *, *::before, *::after { cursor: auto; }
+}
+
+/* ИНТЕРАКТИВНЫЕ УСЛУГИ */
+.services-interactive {
+    padding: 10rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.services-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: 0.5s ease;
+    z-index: -1;
+    filter: brightness(0.3) grayscale(1);
+}
+
+.service-item {
+    border-bottom: 1px solid #333;
+    padding: 3rem 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.service-num {
+    font-family: var(--font-head);
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
+
+.service-name {
+    font-family: var(--font-head);
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+.service-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s var(--easing);
+    padding-left: 5rem;
+    max-width: 600px;
+    color: #888;
+}
+
+.service-item:hover .service-content {
+    max-height: 200px;
+    padding-top: 1.5rem;
+}
+
+.service-item:hover .service-name {
+    padding-left: 2rem;
+    color: var(--accent-color);
+}
+
+/* КАЛЬКУЛЯТОР */
+.calculator-section {
+    padding: 10rem 0;
+    background: #000;
+}
+
+.calc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.calc-info .section-title {
+    margin-bottom: 1.5rem; /* Чуть больше отступа от заголовка */
+}
+
+.calc-info p {
+    margin-top: 1rem; /* Явно задаем отступ сверху для параграфа */
+    font-size: 1.2rem; /* Сделаем шрифт описания крупнее, чтоб смотрелось солиднее */
+    line-height: 1.5;
+    color: #888;
+}
+
+.calc-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.calc-option {
+    position: relative;
+}
+
+.calc-option input {
+    position: absolute;
+    opacity: 0;
+}
+
+.calc-option label {
+    display: block;
+    padding: 1.5rem 2rem;
+    border: 1px solid #333;
+    font-family: var(--font-head);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.calc-option input:checked + label {
+    background: var(--accent-color);
+    color: #000;
+    border-color: var(--accent-color);
+}
+
+.calc-result {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--accent-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-label {
+    font-family: var(--font-head);
+    font-size: 1.5rem;
+}
+
+.result-value {
+    font-family: var(--font-head);
+    font-size: 3.5rem;
+    color: var(--accent-color);
+}
+
+/* DRAGGABLE WINDOW */
+.drag-window {
+    position: fixed;
+    top: 20%;
+    right: 5%;
+    width: 320px;
+    background: #111;
+    border: 2px solid #fff;
+    z-index: 2000;
+    box-shadow: 15px 15px 0px var(--secondary-color);
+}
+
+.window-header {
+    background: #fff;
+    color: #000;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-head);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.window-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.close-win {
+    cursor: pointer;
+}
+
+.window-body {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    color: var(--accent-color);
+}
+
+.terminal-cursor {
+    display: inline-block;
+    width: 10px;
+    height: 18px;
+    background: var(--accent-color);
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* ЕБЕЙШИЙ ГЛИТЧ-ПЕРЕХОД */
+#page-transition-glitch {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+    pointer-events: none;
+    display: none; /* Скрыт по умолчанию */
+    flex-direction: column;
+}
+
+#page-transition-glitch.active {
+    display: flex;
+}
+
+.glitch-slice {
+    flex-grow: 1;
+    width: 100%;
+    background: var(--bg-color);
+    animation-name: glitch-effect;
+    animation-duration: 0.8s;
+    animation-timing-function: steps(1, end);
+    animation-fill-mode: forwards;
+}
+
+@keyframes glitch-effect {
+    0% {
+        transform: translateX(0);
+        background: transparent;
+    }
+    10% {
+        transform: translateX(calc(-1 * (100vw * 0.05)));
+        background: var(--accent-color);
+    }
+    20% {
+        transform: translateX(calc(100vw * 0.05));
+        background: var(--secondary-color);
+    }
+    30% {
+        transform: translateX(calc(-1 * (100vw * 0.02)));
+        background: #fff;
+    }
+    40% {
+        transform: translateX(calc(100vw * 0.03));
+        background: var(--bg-color);
+        clip-path: polygon(0 20%, 100% 20%, 100% 80%, 0 80%);
+    }
+    50% {
+        transform: translateX(0);
+        background: var(--accent-color);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    60% {
+        transform: translateX(calc(100vw * 0.01));
+        background: #000;
+    }
+    70% {
+        transform: translateX(calc(-1 * (100vw * 0.04)));
+        background: transparent;
+    }
+    80% {
+        transform: translateX(0);
+        background: var(--bg-color);
+    }
+    90%, 100% {
+        transform: translateX(0);
+        background: var(--bg-color);
+    }
+}
+
+.work-img-wrapper {
+    overflow: hidden; /* Чтобы картинка не вылезала за границы при увеличении */
+    cursor: zoom-in;
+}
+
+.work-img {
+    transition: transform 0.6s var(--easing), filter 0.6s var(--easing);
+}
+
+.work-img-wrapper:hover .work-img {
+    transform: scale(1.08); /* Легкое увеличение */
+    filter: grayscale(0%) brightness(1.1);
+}
+
+/* МОДАЛЬНОЕ ОКНО (LIGHTBOX) */
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 10000;
+    display: none; /* Скрыто по умолчанию */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.lightbox-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.lightbox-container {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-img {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    border: 1px solid #333;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    transform: scale(0.9);
+    transition: transform 0.4s var(--easing);
+}
+
+.lightbox-overlay.active .lightbox-img {
+    transform: scale(1);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    color: #fff;
+    font-family: var(--font-head);
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.lightbox-close:hover {
+    color: var(--accent-color);
+}
+
+body.lightbox-open .cursor-outline {
+    border-color: var(--accent-color);
+    background-color: rgba(204, 255, 0, 0.1);
+}
+
+================================================================================
+ФАЙЛ: work.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПРОЕКТЫ | ACID VISION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    
+    <div class="loader-wrap">
+        <div class="loader-text">ЗАГРУЗКА АРХИВА...</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="noise-bg"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand-logo magnetic">ACID.VSN</a>
+        <div class="menu-toggle magnetic">
+            <span class="menu-text">МЕНЮ</span>
+            <div class="menu-bars">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay">
+        <div class="menu-nav">
+            <a href="index.html" class="menu-link magnetic" data-text="ГЛАВНАЯ">ГЛАВНАЯ</a>
+            <a href="work.html" class="menu-link magnetic" data-text="ПРОЕКТЫ">ПРОЕКТЫ</a>
+            <a href="contact.html" class="menu-link magnetic" data-text="КОНТАКТЫ">КОНТАКТЫ</a>
+        </div>
+        <div class="menu-footer">
+            <span>ОСН. 2024</span>
+            <span>МОСКВА / СПБ</span>
+        </div>
+    </div>
+
+    <main class="transition-fade">
+        <section class="page-header">
+            <h1 class="page-title glitched" data-text="АРХИВ">АРХИВ</h1>
+        </section>
+
+        <section class="work-list">
+            
+            <div class="project-row scroll-reveal">
+                <span class="project-num">01</span>
+                <h2 class="project-name">VOID RUNNER</h2>
+                <span class="project-cat">ИГРОВОЙ UI / 3D</span>
+                <div class="project-img-hover">
+                    <img src="templates/VoidRunner.png" alt="Void Runner UI">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">02</span>
+                <h2 class="project-name">HYPER LOOP</h2>
+                <span class="project-cat">МОУШН / ВЕБ</span>
+                <div class="project-img-hover">
+                    <img src="templates/Hyperloop.png" alt="Hyper Loop Web Concept">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">03</span>
+                <h2 class="project-name">DARK MATTER</h2>
+                <span class="project-cat">БРЕНДИНГ</span>
+                <div class="project-img-hover">
+                    <img src="templates/DarkMatter.png" alt="Dark Matter Branding">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">04</span>
+                <h2 class="project-name">SYNTHETIC</h2>
+                <span class="project-cat">APP ДИЗАЙН</span>
+                <div class="project-img-hover">
+                    <img src="templates/Synthetic.png" alt="Synthetic App UI">
+                </div>
+            </div>
+
+            <div class="project-row scroll-reveal">
+                <span class="project-num">05</span>
+                <h2 class="project-name">ACID RAIN</h2>
+                <span class="project-cat">ЭКСПЕРИМЕНТ</span>
+                <div class="project-img-hover">
+                    <img src="templates/ACID_EXPERIMENT.png" alt="Acid Rain Experiment">
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h2 class="footer-cta magnetic">ОБСУДИМ ПРОЕКТ</h2>
+            </div>
+            <div class="footer-bottom">
+                <div class="socials">
+                    <a href="#" class="magnetic">TELEGRAM</a>
+                    <a href="#" class="magnetic">VKONTAKTE</a>
+                    <a href="#" class="magnetic">BEHANCE</a>
+                </div>
+                <div class="copyright">
+                    ©2024 ACID VISION. ВСЕ ПРАВА ЗАЩИЩЕНЫ.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-container">
+            <button class="lightbox-close" id="close-lightbox">ЗАКРЫТЬ [X]</button>
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        </div>
+    </div>
+
+    <div id="page-transition-glitch"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

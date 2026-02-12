@@ -255,22 +255,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const closeBtn = document.getElementById('close-lightbox');
-    const workImages = document.querySelectorAll('.work-img-wrapper img');
+    
+    // Выбираем и обертки на главной, и строки в архиве
+    const workItems = document.querySelectorAll('.work-img-wrapper, .project-row');
 
-    if (lightbox && lightboxImg && workImages.length > 0) {
-        workImages.forEach(img => {
-            img.parentElement.addEventListener('click', () => {
-                lightboxImg.setAttribute('src', img.getAttribute('src'));
-                lightbox.classList.add('active');
-                body.style.overflow = 'hidden';
-                body.classList.add('lightbox-open');
+    if (lightbox && lightboxImg && workItems.length > 0) {
+        workItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Ищем картинку внутри кликнутого элемента
+                const img = item.querySelector('img');
+                if (img) {
+                    const src = img.getAttribute('src');
+                    lightboxImg.setAttribute('src', src);
+                    lightbox.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                    document.body.classList.add('lightbox-open');
+                }
             });
         });
 
         const closeLightbox = () => {
             lightbox.classList.remove('active');
-            body.style.overflow = '';
-            body.classList.remove('lightbox-open');
+            document.body.style.overflow = '';
+            document.body.classList.remove('lightbox-open');
             setTimeout(() => { lightboxImg.setAttribute('src', ''); }, 400);
         };
 
