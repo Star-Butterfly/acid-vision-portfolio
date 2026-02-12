@@ -251,6 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    
     // --- LIGHTBOX (ПРОСМОТР КАРТИНОК) ---
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
